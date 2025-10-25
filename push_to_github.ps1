@@ -1,12 +1,12 @@
 # push_to_github.ps1
 # Usage:
 # 1. Edit $RemoteUrl to your GitHub repo HTTPS URL (e.g. https://github.com/YourUsername/socket-scanner-midterm.git)
-# 2. Open PowerShell in the project folder (Socket_Scanner)
+# 2. Open PowerShell in the project folder (crispy-train)
 # 3. Run: .\push_to_github.ps1
 # If prompted for credentials, use your GitHub username and a Personal Access Token (PAT) as password when required.
 
 param(
-    [string]$RemoteUrl = "https://github.com/AlberttoAl/Ultimate_Socket_Scanner.git",
+    [string]$RemoteUrl = "https://github.com/AlberttoAl/crispy-train.git",
     [string]$CommitMessage = "Initial Commit: Server, Client, Port Scanner, README, Screenshots"
 )
 
