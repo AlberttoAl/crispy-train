@@ -79,8 +79,8 @@ Do **not** run the scanner against any other IP/host. Aggressive scanning or sca
 7. `7_Nmap_1-200_Scan.png`  
 8. `8_Nmap_1-200_Scan_Part2.png`  
 9. `9_Invalid_Ports.png`  
-10.`10_Bad_Range.png`  
-11.`11_Unauthorized_Target.png`
+10. `10_Bad_Range.png`  
+11. `11_Unauthorized_Target.png`
 
 ---
 
