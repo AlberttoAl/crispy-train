@@ -1,7 +1,7 @@
-# Socket & Port Scanner — Midterm
+# Socket & Port Scanner
 
 **Description**  
-This repository contains a simple threaded TCP server (`server.py`), a TCP client (`client.py`), and an educational TCP port scanner (`port_scanner.py`) created for a course midterm. The purpose of this project is to demonstrate socket programming, connection handling, input validation, and ethical port scanning practices.
+This repository contains a simple threaded TCP server (`server.py`), a TCP client (`client.py`), and an educational TCP port scanner (`port_scanner.py`) created for my course midterm. The purpose of this project is to demonstrate socket programming, connection handling, input validation, and ethical port scanning practices.
 
 ---
 
@@ -10,13 +10,12 @@ This repository contains a simple threaded TCP server (`server.py`), a TCP clien
 - `client.py` — Simple TCP client for sending messages.  
 - `port_scanner.py` — Educational TCP port scanner (whitelisted targets only).  
 - `README.md` — This file.  
-- `Socket_Port_Scanner_APA_Final.docx` — (optional) APA-formatted lab report.  
-- `screenshots/` — (recommended) Folder containing terminal screenshots demonstrating tests.
+- `screenshots/` — Folder containing terminal screenshots demonstrating tests.
 
 ---
 
 ## Requirements
-- Python 3.9+ (3.11 recommended)
+- Python 3.11.4+ (recommended)
 - Windows 10/11 (tested), PowerShell (or macOS/Linux Terminal)
 - No external Python packages required
 
@@ -69,20 +68,19 @@ Do **not** run the scanner against any other IP/host. Aggressive scanning or sca
 
 ---
 
-## Test checklist (include screenshots in `screenshots/` folder)
-Capture and store the following images (with visible timestamps) and include them in your submission:
+## Screenshots 
 
-1. `01_server_listening.png` — server listening message.  
-2. `02_client_success.png` — client connected & received response.  
-3. `03_server_received.png` — server log showing received client message.  
-4. `04_server_shutdown.png` — server graceful shutdown (Ctrl+C).  
-5. `05_client_connection_refused.png` — client run when server is down (connection refused).  
-6. `06_scanner_local_common.png` — scanner output for ports 21,22,80,443 on localhost.  
-7. `07_scanner_local_range.png` — scanner output for range 1–200 (can be split).  
-8. `08_scanner_scanme.png` — authorized scan of scanme.nmap.org.  
-9. `09_scanner_invalid_ports.png` — invalid ports input error.  
-10. `10_scanner_bad_range.png` — reversed/bad range input error.  
-11. `11_scanner_unauthorized.png` — scanner refusing unauthorized target.
+1. `1_Terminals.png` 
+2. `2_Error_Correction.png`
+3. `3_Error_Mgmt.png`  
+4. `4_Ports_Closed.png`  
+5. `5_Open_Port_135.png`  
+6. `6_Approved_Nmap_Scan.png` 
+7. `7_Nmap_1-200_Scan.png`  
+8. `8_Nmap_1-200_Scan_Part2.png`  
+9. `9_Invalid_Ports.png`  
+10.`10_Bad_Range.png`  
+11.`11_Unauthorized_Target.png`
 
 ---
 
@@ -109,16 +107,10 @@ If prompted for credentials, use your GitHub username and a Personal Access Toke
 
 ---
 
-## Suggested submission text (copy to your assignment)
-> Repository: `https://github.com/YourUsername/socket-scanner-midterm`  
-> The repo contains `server.py`, `client.py`, `port_scanner.py`, an APA-format lab report, and screenshots demonstrating successful and unsuccessful connection tests and scanner output (timestamps included). All scans were limited to authorized targets.
-
----
-
 ## Citation (for reflection / references)
 Lyon, G. F. (2009). *Nmap Network Scanning: The Official Nmap Project Guide to Network Discovery and Security Scanning* (1st ed.). Insecure.Com LLC.
 
 ---
 
 ## Contact
-If you have questions about the code or tests, email: your-email@example.com
+If you have questions about the code or tests, message me.

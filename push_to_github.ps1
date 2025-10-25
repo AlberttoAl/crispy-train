@@ -6,11 +6,12 @@
 # If prompted for credentials, use your GitHub username and a Personal Access Token (PAT) as password when required.
 
 param(
-    [string]$RemoteUrl = "<PASTE_YOUR_REMOTE_URL_HERE>",
-    [string]$CommitMessage = "Midterm: add server, client, port scanner, README, screenshots"
+    [string]$RemoteUrl = "https://github.com/AlberttoAl/Ultimate_Socket_Scanner.git",
+    [string]$CommitMessage = "Initial Commit: Server, Client, Port Scanner, README, Screenshots"
 )
 
-if ($RemoteUrl -eq "<PASTE_YOUR_REMOTE_URL_HERE>") {
+if ($RemoteUrl -eq "notepad .\push_to_github.ps1
+") {
     Write-Host "Please edit this script and set the variable \$RemoteUrl to your repository HTTPS URL before running." -ForegroundColor Yellow
     exit 1
 }
