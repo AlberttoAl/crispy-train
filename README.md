@@ -86,7 +86,7 @@ Do **not** run the scanner against any other IP/host. Aggressive scanning or sca
 
 ## Example git commands (one-time setup + push)
 ```powershell
-cd C:\Users\<you>\OneDrive\Documents\Socket_Scanner
+cd C:\Users\<you>\OneDrive\Desktop\crispy-train
 
 # initialize if needed
 git init
